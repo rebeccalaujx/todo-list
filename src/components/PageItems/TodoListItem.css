@@ -1,0 +1,51 @@
+.item {
+  height:100%;
+  width: 80%;
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(185, 185, 185, 0.501);
+  border-radius: 7px;
+  margin: 2px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.contents {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin: 7px;
+}
+
+.title {
+  word-wrap: break-word;
+  flex-grow: 1;
+  height:100%;
+  margin: 7px;
+}
+
+.buttons {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.editOrSaveButton {
+  margin: 5px 0px 5px 5px;
+}
+
+.deleteButton {
+  margin-left: auto;
+  margin-right: 0;
+  margin: 5px;
+}
+
+.inputBar {
+  flex-grow: 1;
+  margin: 7px;
+}
